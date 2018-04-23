@@ -1,0 +1,5 @@
+([]main.token) (len=3) {
+  (main.token) [IntTok: "1"],
+  (main.token) [IntTok: "2"],
+  (main.token) [IntTok: "3"]
+}

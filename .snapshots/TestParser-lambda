@@ -1,0 +1,22 @@
+(main.lambda) {
+  args: (main.list) {
+    list: ([]main.ast) (len=1) {
+      (main.atom) {
+        value: (string) (len=1) "x"
+      }
+    }
+  },
+  body: (main.list) {
+    list: ([]main.ast) (len=3) {
+      (main.atom) {
+        value: (string) (len=1) "+"
+      },
+      (main.atom) {
+        value: (string) (len=1) "x"
+      },
+      (main.intLiteral) {
+        value: (int) 1
+      }
+    }
+  }
+}

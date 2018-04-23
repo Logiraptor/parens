@@ -1,0 +1,6 @@
+(main.define) {
+  name: (string) (len=1) "a",
+  value: (main.intLiteral) {
+    value: (int) 1
+  }
+}

@@ -1,0 +1,13 @@
+(main.list) {
+  list: ([]main.ast) (len=3) {
+    (main.atom) {
+      value: (string) (len=6) "append"
+    },
+    (main.stringLiteral) {
+      value: (string) (len=3) "foo"
+    },
+    (main.stringLiteral) {
+      value: (string) (len=3) "bar"
+    }
+  }
+}

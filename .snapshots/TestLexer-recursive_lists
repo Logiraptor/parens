@@ -1,0 +1,9 @@
+([]main.token) (len=7) {
+  (main.token) [LParenTok: "("],
+  (main.token) [AtomTok: "apply"],
+  (main.token) [LParenTok: "("],
+  (main.token) [AtomTok: "foo"],
+  (main.token) [AtomTok: "bar"],
+  (main.token) [RParenTok: ")"],
+  (main.token) [RParenTok: ")"]
+}

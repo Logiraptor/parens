@@ -1,0 +1,13 @@
+(main.list) {
+  list: ([]main.ast) (len=3) {
+    (main.atom) {
+      value: (string) (len=1) "+"
+    },
+    (main.intLiteral) {
+      value: (int) 1
+    },
+    (main.intLiteral) {
+      value: (int) 2
+    }
+  }
+}

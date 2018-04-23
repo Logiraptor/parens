@@ -1,0 +1,5 @@
+([]main.token) (len=3) {
+  (main.token) [FloatTok: "1.2"],
+  (main.token) [FloatTok: "5.0"],
+  (main.token) [FloatTok: "0.42"]
+}

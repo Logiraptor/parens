@@ -1,0 +1,18 @@
+Special forms
+
+atom
+list
+term = atom | list
+
+(define atom term) <- evaluate term and store in environment as atom
+(lambda term expression) <- delay evaluation of expression until term is bound
+(quote term) <- always quote as data (alias quote ')
+(quasi-quote term) <- like quote but with unquote support (alias quasi-quote `)
+(unquote term) <- evaluate, within a quasi-quoted term (alias unquote ,)
+(cond
+    (condition result)*
+    ) <- resolve to first result where condition is true
+(car list) <- head
+(cdr list) <- tail
+(cons head tail) <- make a list
+

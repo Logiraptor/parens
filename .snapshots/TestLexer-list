@@ -1,0 +1,4 @@
+([]main.token) (len=2) {
+  (main.token) [LParenTok: "("],
+  (main.token) [RParenTok: ")"]
+}

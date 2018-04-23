@@ -1,0 +1,60 @@
+(main.cond) {
+  clauses: ([]main.condClause) (len=2) {
+    (main.condClause) {
+      condition: (main.list) {
+        list: ([]main.ast) (len=3) {
+          (main.atom) {
+            value: (string) (len=1) "="
+          },
+          (main.atom) {
+            value: (string) (len=1) "a"
+          },
+          (main.atom) {
+            value: (string) (len=1) "b"
+          }
+        }
+      },
+      consequence: (main.list) {
+        list: ([]main.ast) (len=3) {
+          (main.atom) {
+            value: (string) (len=1) "+"
+          },
+          (main.atom) {
+            value: (string) (len=1) "a"
+          },
+          (main.atom) {
+            value: (string) (len=1) "b"
+          }
+        }
+      }
+    },
+    (main.condClause) {
+      condition: (main.list) {
+        list: ([]main.ast) (len=3) {
+          (main.atom) {
+            value: (string) (len=3) "neq"
+          },
+          (main.atom) {
+            value: (string) (len=1) "a"
+          },
+          (main.atom) {
+            value: (string) (len=1) "b"
+          }
+        }
+      },
+      consequence: (main.list) {
+        list: ([]main.ast) (len=3) {
+          (main.atom) {
+            value: (string) (len=1) "-"
+          },
+          (main.atom) {
+            value: (string) (len=1) "a"
+          },
+          (main.atom) {
+            value: (string) (len=1) "b"
+          }
+        }
+      }
+    }
+  }
+}

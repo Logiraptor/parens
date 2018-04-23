@@ -1,0 +1,19 @@
+(main.define) {
+  name: (string) (len=1) "q",
+  value: (main.quasiQuote) {
+    form: (main.list) {
+      list: ([]main.ast) (len=2) {
+        (main.unquote) {
+          form: (main.intLiteral) {
+            value: (int) 1
+          }
+        },
+        (main.unquote) {
+          form: (main.intLiteral) {
+            value: (int) 2
+          }
+        }
+      }
+    }
+  }
+}

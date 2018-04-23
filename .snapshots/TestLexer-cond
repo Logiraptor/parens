@@ -1,0 +1,20 @@
+([]main.token) (len=18) {
+  (main.token) [LParenTok: "("],
+  (main.token) [AtomTok: "cond"],
+  (main.token) [LParenTok: "("],
+  (main.token) [AtomTok: "="],
+  (main.token) [AtomTok: "a"],
+  (main.token) [AtomTok: "b"],
+  (main.token) [RParenTok: ")"],
+  (main.token) [LParenTok: "("],
+  (main.token) [AtomTok: "+"],
+  (main.token) [AtomTok: "a"],
+  (main.token) [AtomTok: "b"],
+  (main.token) [RParenTok: ")"],
+  (main.token) [LParenTok: "("],
+  (main.token) [AtomTok: "-"],
+  (main.token) [AtomTok: "a"],
+  (main.token) [AtomTok: "b"],
+  (main.token) [RParenTok: ")"],
+  (main.token) [RParenTok: ")"]
+}

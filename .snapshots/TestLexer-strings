@@ -1,0 +1,3 @@
+([]main.token) (len=1) {
+  (main.token) [StringTok: "\"string contents\""]
+}

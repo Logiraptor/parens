@@ -1,0 +1,11 @@
+([]main.token) (len=9) {
+  (main.token) [AtomTok: "define"],
+  (main.token) [AtomTok: "lambda"],
+  (main.token) [AtomTok: "quote"],
+  (main.token) [QuoteTok: "'"],
+  (main.token) [AtomTok: "quasi-quote"],
+  (main.token) [QuasiQuoteTok: "`"],
+  (main.token) [AtomTok: "unquote"],
+  (main.token) [UnquoteTok: ","],
+  (main.token) [AtomTok: "cond"]
+}

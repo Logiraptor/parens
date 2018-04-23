@@ -1,0 +1,3 @@
+(main.atom) {
+  value: (string) (len=3) "abc"
+}
